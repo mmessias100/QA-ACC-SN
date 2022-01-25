@@ -40,13 +40,14 @@
 
 # Exercise - Creating a python program that asks a user for an input then grades them based on the number inputtted.
 
-# another_mark = int(input("Enter another number and we'll tell you what your mark is: "))
-# if another_mark >=85:
-#     print("Distinction")
-#     if another_mark >= 65 and another_mark <= 84:
-#         print("Pass")
-# else:
-#     print("Fail")
+another_mark = int(input("Enter another number and we'll tell you what your mark is: "))
+if another_mark <85:
+    if another_mark >= 65 and another_mark <85:
+        print("Pass")
+    else:
+        print("Fail")
+else:
+    print("Distinction")
 
 # Exercise - Odd or Even numbers
 
@@ -74,11 +75,11 @@
 
 # Leap year challenge
 
-year = int(input("Enter a year: "))
+# year = int(input("Enter a year: "))
 
-if year % 400 == 0 and year % 100 == 0:
-    print("{0} is a leap year".format(year))
-elif year % 4 == 0 and year & 100 != 0:
-    print("{0} is a leap year".format(year))
-else:
-    print("{0} is not a leap year".format(year))
+# if year % 400 == 0 and year % 100 == 0:
+#     print("{0} is a leap year".format(year))
+# elif year % 4 == 0 and year & 100 != 0:
+#     print("{0} is a leap year".format(year))
+# else:
+#     print("{0} is not a leap year".format(year))
