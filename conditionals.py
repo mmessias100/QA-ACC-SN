@@ -31,7 +31,7 @@
 
 # if mark >= 85:
 #     print("Distinction")
-# elif mark >= 65 and mark <= 85:
+# elif mark >= 65 and mark <85:
 #     print("Pass")
 # elif mark >= 1 and mark <=64:
 #     print("Fail")
